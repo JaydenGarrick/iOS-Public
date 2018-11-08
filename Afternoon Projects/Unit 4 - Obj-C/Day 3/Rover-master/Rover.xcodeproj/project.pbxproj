@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		461049141F02FC4200C75FEF /* APIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 461049131F02FC4200C75FEF /* APIKeys.plist */; };
+		9DE7D67F1E4E26CF004CBBD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7D6731E4E26CF004CBBD8 /* Assets.xcassets */; };
+		9DE7D6801E4E26CF004CBBD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7D6741E4E26CF004CBBD8 /* LaunchScreen.storyboard */; };
+		9DE7D6811E4E26CF004CBBD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7D6761E4E26CF004CBBD8 /* Main.storyboard */; };
+		9DE7D6831E4E26CF004CBBD8 /* DMNRoverAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7D67B1E4E26CF004CBBD8 /* DMNRoverAppDelegate.m */; };
+		9DE7D6841E4E26CF004CBBD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7D67C1E4E26CF004CBBD8 /* main.m */; };
+		9DE7D6921E4E296F004CBBD8 /* DMNMarsRoverClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7D6911E4E296F004CBBD8 /* DMNMarsRoverClient.m */; };
+		9DE7D6951E4E2AAC004CBBD8 /* DMNMarsRover.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7D6941E4E2AAC004CBBD8 /* DMNMarsRover.m */; };
+		9DE7D6981E4E2B59004CBBD8 /* DMNMarsPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7D6971E4E2B59004CBBD8 /* DMNMarsPhoto.m */; };
+		9DE7D69B1E4E2B66004CBBD8 /* DMNSolDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7D69A1E4E2B66004CBBD8 /* DMNSolDescription.m */; };
+		9DE7D69E1E4E30C1004CBBD8 /* DMNPhotoCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7D69D1E4E30C1004CBBD8 /* DMNPhotoCache.m */; };
+		9DF138581E56481F00AF0400 /* DMNRoversTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF138571E56481F00AF0400 /* DMNRoversTableViewController.m */; };
+		9DF138601E5F56D300AF0400 /* DMNSolsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF1385F1E5F56D300AF0400 /* DMNSolsTableViewController.m */; };
+		9DF138631E5F62E800AF0400 /* DMNPhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF138621E5F62E800AF0400 /* DMNPhotosCollectionViewController.m */; };
+		9DF138661E5F6B9100AF0400 /* DMNPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF138651E5F6B9100AF0400 /* DMNPhotoCollectionViewCell.m */; };
+		9DF138921E64AAB600AF0400 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF138911E64AAB600AF0400 /* PhotoDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		461049131F02FC4200C75FEF /* APIKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = APIKeys.plist; sourceTree = "<group>"; };
+		9DE7D6581E4E26AC004CBBD8 /* Rover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE7D6731E4E26CF004CBBD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DE7D6751E4E26CF004CBBD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DE7D6771E4E26CF004CBBD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DE7D6781E4E26CF004CBBD8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DE7D67A1E4E26CF004CBBD8 /* DMNRoverAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNRoverAppDelegate.h; sourceTree = "<group>"; };
+		9DE7D67B1E4E26CF004CBBD8 /* DMNRoverAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNRoverAppDelegate.m; sourceTree = "<group>"; };
+		9DE7D67C1E4E26CF004CBBD8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DE7D6901E4E296F004CBBD8 /* DMNMarsRoverClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNMarsRoverClient.h; sourceTree = "<group>"; };
+		9DE7D6911E4E296F004CBBD8 /* DMNMarsRoverClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNMarsRoverClient.m; sourceTree = "<group>"; };
+		9DE7D6931E4E2AAC004CBBD8 /* DMNMarsRover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNMarsRover.h; sourceTree = "<group>"; };
+		9DE7D6941E4E2AAC004CBBD8 /* DMNMarsRover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNMarsRover.m; sourceTree = "<group>"; };
+		9DE7D6961E4E2B59004CBBD8 /* DMNMarsPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNMarsPhoto.h; sourceTree = "<group>"; };
+		9DE7D6971E4E2B59004CBBD8 /* DMNMarsPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNMarsPhoto.m; sourceTree = "<group>"; };
+		9DE7D6991E4E2B66004CBBD8 /* DMNSolDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNSolDescription.h; sourceTree = "<group>"; };
+		9DE7D69A1E4E2B66004CBBD8 /* DMNSolDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNSolDescription.m; sourceTree = "<group>"; };
+		9DE7D69C1E4E30C1004CBBD8 /* DMNPhotoCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNPhotoCache.h; sourceTree = "<group>"; };
+		9DE7D69D1E4E30C1004CBBD8 /* DMNPhotoCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNPhotoCache.m; sourceTree = "<group>"; };
+		9DF138561E56481F00AF0400 /* DMNRoversTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNRoversTableViewController.h; sourceTree = "<group>"; };
+		9DF138571E56481F00AF0400 /* DMNRoversTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNRoversTableViewController.m; sourceTree = "<group>"; };
+		9DF1385E1E5F56D300AF0400 /* DMNSolsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNSolsTableViewController.h; sourceTree = "<group>"; };
+		9DF1385F1E5F56D300AF0400 /* DMNSolsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNSolsTableViewController.m; sourceTree = "<group>"; };
+		9DF138611E5F62E800AF0400 /* DMNPhotosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNPhotosCollectionViewController.h; sourceTree = "<group>"; };
+		9DF138621E5F62E800AF0400 /* DMNPhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNPhotosCollectionViewController.m; sourceTree = "<group>"; };
+		9DF138641E5F6B9100AF0400 /* DMNPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		9DF138651E5F6B9100AF0400 /* DMNPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		9DF138901E64AAB600AF0400 /* Rover-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rover-Bridging-Header.h"; sourceTree = "<group>"; };
+		9DF138911E64AAB600AF0400 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DE7D6551E4E26AC004CBBD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DE7D64F1E4E26AC004CBBD8 = {
+			isa = PBXGroup;
+			children = (
+				9DE7D6791E4E26CF004CBBD8 /* Sources */,
+				9DE7D6721E4E26CF004CBBD8 /* Resources */,
+				9DE7D6591E4E26AC004CBBD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DE7D6591E4E26AC004CBBD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7D6581E4E26AC004CBBD8 /* Rover.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DE7D6721E4E26CF004CBBD8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7D6861E4E26D8004CBBD8 /* Storyboards */,
+				9DE7D6731E4E26CF004CBBD8 /* Assets.xcassets */,
+				9DE7D6781E4E26CF004CBBD8 /* Info.plist */,
+				461049131F02FC4200C75FEF /* APIKeys.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9DE7D6791E4E26CF004CBBD8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7D67A1E4E26CF004CBBD8 /* DMNRoverAppDelegate.h */,
+				9DE7D67B1E4E26CF004CBBD8 /* DMNRoverAppDelegate.m */,
+				9DE7D68A1E4E2704004CBBD8 /* Model */,
+				9DE7D68B1E4E2705004CBBD8 /* Model Controllers */,
+				9DE7D68C1E4E2705004CBBD8 /* View Controllers */,
+				9DE7D6891E4E2702004CBBD8 /* Views */,
+				9DE7D68F1E4E2958004CBBD8 /* Networking */,
+				9DE7D6871E4E26E7004CBBD8 /* Supporting Files */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9DE7D6861E4E26D8004CBBD8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7D6741E4E26CF004CBBD8 /* LaunchScreen.storyboard */,
+				9DE7D6761E4E26CF004CBBD8 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		9DE7D6871E4E26E7004CBBD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DF138901E64AAB600AF0400 /* Rover-Bridging-Header.h */,
+				9DE7D67C1E4E26CF004CBBD8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DE7D6891E4E2702004CBBD8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9DF138641E5F6B9100AF0400 /* DMNPhotoCollectionViewCell.h */,
+				9DF138651E5F6B9100AF0400 /* DMNPhotoCollectionViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9DE7D68A1E4E2704004CBBD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7D6931E4E2AAC004CBBD8 /* DMNMarsRover.h */,
+				9DE7D6941E4E2AAC004CBBD8 /* DMNMarsRover.m */,
+				9DE7D6961E4E2B59004CBBD8 /* DMNMarsPhoto.h */,
+				9DE7D6971E4E2B59004CBBD8 /* DMNMarsPhoto.m */,
+				9DE7D6991E4E2B66004CBBD8 /* DMNSolDescription.h */,
+				9DE7D69A1E4E2B66004CBBD8 /* DMNSolDescription.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9DE7D68B1E4E2705004CBBD8 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7D69C1E4E30C1004CBBD8 /* DMNPhotoCache.h */,
+				9DE7D69D1E4E30C1004CBBD8 /* DMNPhotoCache.m */,
+			);
+			name = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		9DE7D68C1E4E2705004CBBD8 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DF138561E56481F00AF0400 /* DMNRoversTableViewController.h */,
+				9DF138571E56481F00AF0400 /* DMNRoversTableViewController.m */,
+				9DF1385E1E5F56D300AF0400 /* DMNSolsTableViewController.h */,
+				9DF1385F1E5F56D300AF0400 /* DMNSolsTableViewController.m */,
+				9DF138611E5F62E800AF0400 /* DMNPhotosCollectionViewController.h */,
+				9DF138621E5F62E800AF0400 /* DMNPhotosCollectionViewController.m */,
+				9DF138911E64AAB600AF0400 /* PhotoDetailViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9DE7D68F1E4E2958004CBBD8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7D6901E4E296F004CBBD8 /* DMNMarsRoverClient.h */,
+				9DE7D6911E4E296F004CBBD8 /* DMNMarsRoverClient.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DE7D6571E4E26AC004CBBD8 /* Rover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DE7D66F1E4E26AC004CBBD8 /* Build configuration list for PBXNativeTarget "Rover" */;
+			buildPhases = (
+				9DE7D6541E4E26AC004CBBD8 /* Sources */,
+				9DE7D6551E4E26AC004CBBD8 /* Frameworks */,
+				9DE7D6561E4E26AC004CBBD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rover;
+			productName = Rover;
+			productReference = 9DE7D6581E4E26AC004CBBD8 /* Rover.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DE7D6501E4E26AC004CBBD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DMN;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = DevMountain;
+				TargetAttributes = {
+					9DE7D6571E4E26AC004CBBD8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WAN4D79W79;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9DE7D6531E4E26AC004CBBD8 /* Build configuration list for PBXProject "Rover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DE7D64F1E4E26AC004CBBD8;
+			productRefGroup = 9DE7D6591E4E26AC004CBBD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DE7D6571E4E26AC004CBBD8 /* Rover */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DE7D6561E4E26AC004CBBD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE7D6811E4E26CF004CBBD8 /* Main.storyboard in Resources */,
+				461049141F02FC4200C75FEF /* APIKeys.plist in Resources */,
+				9DE7D67F1E4E26CF004CBBD8 /* Assets.xcassets in Resources */,
+				9DE7D6801E4E26CF004CBBD8 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DE7D6541E4E26AC004CBBD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE7D6921E4E296F004CBBD8 /* DMNMarsRoverClient.m in Sources */,
+				9DE7D6951E4E2AAC004CBBD8 /* DMNMarsRover.m in Sources */,
+				9DF138661E5F6B9100AF0400 /* DMNPhotoCollectionViewCell.m in Sources */,
+				9DE7D6841E4E26CF004CBBD8 /* main.m in Sources */,
+				9DE7D69B1E4E2B66004CBBD8 /* DMNSolDescription.m in Sources */,
+				9DE7D6831E4E26CF004CBBD8 /* DMNRoverAppDelegate.m in Sources */,
+				9DF138631E5F62E800AF0400 /* DMNPhotosCollectionViewController.m in Sources */,
+				9DE7D69E1E4E30C1004CBBD8 /* DMNPhotoCache.m in Sources */,
+				9DF138921E64AAB600AF0400 /* PhotoDetailViewController.swift in Sources */,
+				9DF138601E5F56D300AF0400 /* DMNSolsTableViewController.m in Sources */,
+				9DE7D6981E4E2B59004CBBD8 /* DMNMarsPhoto.m in Sources */,
+				9DF138581E56481F00AF0400 /* DMNRoversTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DE7D6741E4E26CF004CBBD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DE7D6751E4E26CF004CBBD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9DE7D6761E4E26CF004CBBD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DE7D6771E4E26CF004CBBD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DE7D66D1E4E26AC004CBBD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DE7D66E1E4E26AC004CBBD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DE7D6701E4E26AC004CBBD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = WAN4D79W79;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DevMountain.Rover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Rover-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9DE7D6711E4E26AC004CBBD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = WAN4D79W79;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DevMountain.Rover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Rover-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DE7D6531E4E26AC004CBBD8 /* Build configuration list for PBXProject "Rover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE7D66D1E4E26AC004CBBD8 /* Debug */,
+				9DE7D66E1E4E26AC004CBBD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DE7D66F1E4E26AC004CBBD8 /* Build configuration list for PBXNativeTarget "Rover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE7D6701E4E26AC004CBBD8 /* Debug */,
+				9DE7D6711E4E26AC004CBBD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DE7D6501E4E26AC004CBBD8 /* Project object */;
+}
