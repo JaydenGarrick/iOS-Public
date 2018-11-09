@@ -20,6 +20,7 @@ class PostListTableViewController: UITableViewController, UISearchBarDelegate {
         super.viewDidLoad()
         postSearchBar.delegate = self
         
+        
         let nc = NotificationCenter.default
         nc.addObserver(self, selector: #selector(postsChanged(_:)), name: PostController.PostsChangedNotification, object: nil)
         
